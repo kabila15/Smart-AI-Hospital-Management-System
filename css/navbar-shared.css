@@ -1,0 +1,86 @@
+/* ============================================================
+   Shared Navbar — matches index.php on all pages
+   ============================================================ */
+
+/* Force Inter font to load */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/* ── Override body background on non-home pages ── */
+body.site-page {
+    background: #f4f7fb !important;
+    font-family: 'Inter', 'IBM Plex Sans', sans-serif !important;
+}
+
+/* ── Navbar wrapper ── */
+nav.site-navbar {
+    padding: 18px 0 !important;
+    background: #ffffff !important;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07) !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+}
+
+/* ── Brand (logo + name) ── */
+nav.site-navbar .navbar-brand {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 1.4rem !important;
+    color: #1e293b !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+nav.site-navbar .navbar-brand i {
+    color: #2563eb !important;
+    background: rgba(37, 99, 235, 0.10) !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 10px !important;
+    font-size: 1.2rem !important;
+}
+
+/* ── Nav links ── */
+nav.site-navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    color: #64748b !important;
+    padding: 6px 0 !important;
+    margin-left: 28px !important;
+    background: transparent !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    transition: color 0.2s ease !important;
+    border: none !important;
+}
+
+nav.site-navbar .navbar-nav .nav-item .nav-link:hover,
+nav.site-navbar .navbar-nav .nav-item .nav-link:focus {
+    color: #2563eb !important;
+    background: transparent !important;
+    text-decoration: none !important;
+}
+
+/* ── Toggler button (mobile) ── */
+nav.site-navbar .navbar-toggler {
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 8px !important;
+    padding: 6px 10px !important;
+    background: transparent !important;
+}
+
+nav.site-navbar .navbar-toggler .fa-bars {
+    color: #1e293b !important;
+    font-size: 1rem !important;
+}

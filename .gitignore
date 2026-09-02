@@ -1,0 +1,52 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+
+# =========================
+# WhatsApp Web session/cache
+# =========================
+.webjs_auth/
+.webjs_cache/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# =========================
+# Log files
+# =========================
+*.log
+*.log.*
+error_log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# IDE settings
+# =========================
+.vscode/
+.idea/
+.gemini/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
