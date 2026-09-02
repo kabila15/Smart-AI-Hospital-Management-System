@@ -1,55 +1,52 @@
-# Smart AI Hospital Management System 
+Smart AI Hospital Management System
 
 A modern and intelligent Hospital Management System built using PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, Node.js, and Express.js.
 
-The system helps streamline hospital operations by managing appointments, patient records, doctor schedules, prescriptions, real-time queue tracking, WhatsApp notifications, and an AI-powered symptom checker.
+The system helps streamline hospital operations by managing appointments, patient records, doctor schedules, prescriptions, real-time queue tracking, WhatsApp notifications, QR-based check-ins, and an AI-powered symptom checker.
 
-## Features
+✨ Features
+Online Patient Registration & Login
+Appointment Booking & Management
+Live Patient Queue Tracking
+Appointment History & Cancellation
+Doctor Dashboard
+Admin Dashboard
+Digital Prescription Management
+Doctor Availability Scheduling
+Smart Doctor Delay Notifications
+Emergency Leave Management
+Automatic Appointment Rescheduling
+QR Code-Based Patient Check-In
+WhatsApp Appointment Notifications
+WhatsApp Queue Delay Alerts
+AI-Powered Symptom Checker
+Medical Department Recommendation
+Responsive Design (Mobile, Tablet & Desktop)
+🛠️ Technologies Used
+Frontend
+HTML5
+CSS3
+JavaScript
+Bootstrap
+Backend
+PHP
+Node.js
+Express.js
+Database
+MySQL / MariaDB
+📋 Requirements
 
-- Online patient registration and login
-- Appointment booking and management
-- Live patient queue tracking
-- Doctor dashboard
-- Admin dashboard
-- Patient records management
-- Digital prescription management
-- Doctor availability scheduling
-- Smart delay notifications
-- Emergency leave management with appointment rescheduling
-- QR code-based check-in integration
-- WhatsApp appointment booking notifications
-- WhatsApp queue delay alerts
-- AI-powered symptom checker and department recommendation
-- Responsive design for mobile, tablet, and desktop
+Before running the project, ensure the following software is installed:
 
-## Technologies Used
-
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Node.js
-- Express.js
-
-## Requirements
-
-- XAMPP / WAMP
-- PHP 7.4+ or PHP 8.x
-- MySQL / MariaDB
-- Node.js
-- npm
-- Modern Web Browser
-
-## Installation
-
-### 1. Clone the Repository
-
-```bash
+XAMPP / WAMP
+PHP 7.4+ or PHP 8.x
+MySQL / MariaDB
+Node.js
+npm
+Modern Web Browser
+🚀 Installation
+1. Clone the Repository
 git clone https://github.com/kabila15/Smart-AI-Hospital-Management-System.git
-```
-
 2. Move the Project to XAMPP
 
 Move the project folder into:
@@ -61,109 +58,123 @@ Open the XAMPP Control Panel and start:
 
 Apache
 MySQL
-4. Create the Database
+4. Setup the Database
 
-Open phpMyAdmin in your browser:
+Open phpMyAdmin:
 
 http://localhost/phpmyadmin
 
-Create a new database named:
+Create a new database:
 
 myhmsdb
-5. Import the Database
+
+Then:
+
 Select the myhmsdb database.
-Click the Import tab.
+Click Import.
 Select the myhmsdb.sql file included in the project.
 Click Import.
-6. Install Node.js Dependencies
+5. Install Node.js Dependencies
 
 Open the terminal inside the project folder and run:
 
 npm install
-7. Start the WhatsApp Notification Server
-
-Run:
-
+6. Start the WhatsApp Notification Server
 node whatsapp-chatbot.js
 
-Follow the instructions in the terminal and scan the WhatsApp QR code if required.
+Follow the instructions shown in the terminal and scan the WhatsApp QR code if required.
 
-8. Run the Application
+7. Run the Application
 
 Open your browser and visit:
 
-http://localhost/MABS/Hospital-Management-System-master/
-Project Modules
-Patient Portal
-Patient registration and login
-Online appointment booking
-Appointment history
-Appointment cancellation
-Live queue tracking
-Prescription viewing
-QR code-based appointment check-in
-Doctor Portal
-Doctor appointment management
-Patient prescription management
-Weekly availability scheduling
-Smart delay notifications
-Emergency leave management
-Automatic appointment rescheduling
-Admin Portal
-Doctor management
-Patient management
-Appointment management
-Doctor schedule configuration
-Block date management
-Patient records management
-QR code scanning integration
+http://localhost/Smart%20AI%20hospital%20management%20system/
+
+Make sure the project folder name matches the URL path.
+
+📂 Project Modules
+👤 Patient Portal
+Patient Registration & Login
+Online Appointment Booking
+Appointment History
+Appointment Cancellation
+Live Queue Tracking
+Prescription Viewing
+QR Code-Based Appointment Check-In
 AI Symptom Checker
-Patients can enter their symptoms
-The AI analyzes the provided symptoms
-Follow-up questions can be generated based on symptoms
-The system recommends an appropriate medical department
-WhatsApp Notification System
+👨‍⚕️ Doctor Portal
+Appointment Management
+Patient Prescription Management
+Weekly Availability Scheduling
+Smart Delay Notifications
+Emergency Leave Management
+Automatic Appointment Rescheduling
+🛠️ Admin Portal
+Doctor Management
+Patient Management
+Appointment Management
+Doctor Schedule Configuration
+Block Date Management
+Patient Records Management
+Leave Approval Management
+Contact Message Management
+🤖 AI Symptom Checker
 
-The system provides automated WhatsApp notifications for:
+The system includes an AI-powered symptom analysis feature.
 
-Appointment booking confirmation
-Queue status updates
-Doctor delay notifications
-Appointment-related alerts
-Database
+Patients can:
+
+Enter their symptoms
+Receive symptom-based analysis
+Answer follow-up questions
+Get a recommended medical department
+📱 WhatsApp Notification System
+
+Automated WhatsApp notifications are sent for:
+
+Appointment Booking Confirmation
+Queue Status Updates
+Doctor Delay Notifications
+Appointment Cancellation Alerts
+Appointment Reminders
+🗄️ Database
 
 The project includes:
 
 myhmsdb.sql
 
-This file contains the database structure and required tables.
+This file contains:
 
-To set up the database:
-
+Database Structure
+Tables
+Relationships
+Sample Data (if included)
+Database Setup
 Create a database named myhmsdb.
 Import the myhmsdb.sql file using phpMyAdmin.
-Key Highlights
-Real-time patient queue tracking
-AI-powered symptom analysis
-WhatsApp notification integration
-Smart doctor delay management
-Emergency leave handling
-Automatic appointment rescheduling
-QR code-based patient check-in
-Responsive user interface
-Future Improvements
-Cloud deployment
-Video consultation
-Online payment integration
-Advanced analytics dashboard
-Mobile application
-Multi-hospital support
-Author
+⭐ Key Highlights
+Real-Time Patient Queue Tracking
+AI-Powered Symptom Analysis
+WhatsApp Notification Integration
+Smart Doctor Delay Management
+Emergency Leave Handling
+Automatic Appointment Rescheduling
+QR Code-Based Patient Check-In
+Responsive User Interface
+🔮 Future Improvements
+Cloud Deployment
+Video Consultation
+Online Payment Gateway Integration
+Advanced Analytics Dashboard
+Mobile Application
+Multi-Hospital Support
+👨‍💻 Author
 
-Kabila
+Kabila V
+Final Year B.E. Computer Science and Engineering Student
 
-Final Year Computer Science and Engineering Student
+GitHub: Kabila15 GitHub Profile
 
-License
+📄 License
 
-This project is created for educational and academic purposes.
+This project is developed for educational and academic purposes only.
