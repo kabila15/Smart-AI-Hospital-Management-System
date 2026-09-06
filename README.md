@@ -42,7 +42,7 @@ The system helps streamline hospital operations by managing appointments, patien
 - Express.js
 
 ### Database
-- MySQL / MariaDB
+- MySQL
 
 ---
 
