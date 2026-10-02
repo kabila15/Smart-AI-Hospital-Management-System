@@ -1,7 +1,7 @@
 # 🏥 Smart AI Hospital Management System
 
 ## 🔗 Live Demo
-Website: https://smartaihms.free.je
+Website: https://smartaihms.free.je/Smart-AI-Hospital-Management-System-main/
 
 ## 🎥 Project Demo Video
 Google Drive: https://drive.google.com/file/d/1Ee9XmJ_abaKuHCL3ORbJSMt9Tz0HBVlX/view?usp=sharing
