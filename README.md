@@ -1,5 +1,14 @@
 # 🏥 Smart AI Hospital Management System
 
+## 🔗 Live Demo
+Website: https://smartaihms.free.je
+
+## 🎥 Project Demo Video
+Google Drive: https://drive.google.com/file/d/1Ee9XmJ_abaKuHCL3ORbJSMt9Tz0HBVlX/view?usp=sharing
+
+## 💻 GitHub Repository
+https://github.com/kabila15/Smart-AI-Hospital-Management-System
+
 A modern and intelligent Hospital Management System built using PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, Node.js, and Express.js.
 
 The system helps streamline hospital operations by managing appointments, patient records, doctor schedules, prescriptions, real-time queue tracking, WhatsApp notifications, QR-based check-ins, and an AI-powered symptom checker.
